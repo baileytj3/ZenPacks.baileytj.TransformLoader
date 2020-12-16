@@ -9,7 +9,7 @@ LICENSE = "MIT"
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.baileytj']
 PACKAGES = ['ZenPacks', 'ZenPacks.baileytj', 'ZenPacks.baileytj.TransformLoader']
 INSTALL_REQUIRES = ['ZenPacks.zenoss.ZenPackLib']
-COMPAT_ZENOSS_VERS = ""
+COMPAT_ZENOSS_VERS = ">=4.2.5"
 PREV_ZENPACK_NAME = ""
 # STOP_REPLACEMENTS
 ################################
