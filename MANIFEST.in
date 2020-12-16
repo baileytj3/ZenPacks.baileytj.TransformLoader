@@ -1,1 +1,2 @@
 graft ZenPacks
+global-exclude *.pyc
