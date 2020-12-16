@@ -34,7 +34,8 @@ file that resides in the same directory as the `zenpack.yaml` file that looks
 like the following:
 
 ```python
-import os from ZenPacks.zenoss.ZenPackLib import zenpacklib
+import os
+from ZenPacks.zenoss.ZenPackLib import zenpacklib
 
 CFG = zenpacklib.load_yaml([os.path.join(os.path.dirname(__file__), "zenpack.yaml")], verbose=False, level=10)
 schema = CFG.zenpack_module.schema
@@ -45,7 +46,8 @@ function should be called from within the `__init__.py` of the ZenPack. The
 result should look similar to the following:
 
 ```python
-import os from ZenPacks.baileytj.TransformLoader import load_transforms
+import os
+from ZenPacks.baileytj.TransformLoader import load_transforms
 from ZenPacks.zenoss.ZenPackLib import zenpacklib
 
 CFG = zenpacklib.load_yaml([os.path.join(os.path.dirname(__file__), "zenpack.yaml")], verbose=False, level=10)
